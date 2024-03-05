@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification Bell</title>
+    <link rel="stylesheet" href="./Style/style.css">
+</head>
+<body>
+    <div class="container" id="_container">
+        <video width="320" height="240" id="myVideo" muted>
+            <source src="ringbellvid.mp4" type="video/mp4">
+        </video>
+        <audio id="_audio" src="sorbetessound.mp3" preload="auto" hidden muted></audio>
+        <div class="notification" id="_notification"></div>
+        <button type="button" class="button" id="_button">CLICK FOR SORBETES</button>
+
+        <audio id="_audio" src="sorbetessound.mp3" preload="auto" hidden></audio>
+    </div>
+
+    <div class="popup-message" id="_popupMessage">Pahinga na Teh</div>
+
+    <script src="./JS/script.js"></script>
+</body>
+</html>
